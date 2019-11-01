@@ -13,11 +13,12 @@ request body:
 { 
 	"image": "Base 64 encoded image, as a string",
     "mode": "“parallel” or “ensemble”",
-    "models": "one or more model names, as an array")
+    "models": "one or more model names, as an array"
 }
 ```
 
 Example response:
+
 with 'mode' == 'parallel'
 ```Json
 {
